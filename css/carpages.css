@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@1,300&display=swap');
+
+
+/*taille de screen
+X-Small		          <576px
+Small		            ≥576px
+Medium		          ≥768px
+Large		            ≥992px
+Extra large	        ≥1200px
+Extra extra large		≥1400px
+
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+/* -------------------- header  ------------------- */
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 10px 1%;
+    background-color: #24252a;
+     
+}
+
+
+.nav {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute ;
+    z-index: 3;
+}
+
+.navlogo img{
+    width: 200px;
+    cursor: pointer;
+    height: 120px;
+    
+}
+
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+
+}
+
+/* -------------------- header  ------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------  Body début ------------------------ */
+
+.bugattihead{
+    background-color: #24252a;
+    color: white;
+    font-family: 'Victor mono', monospace;
+    display: block;
+    border: solid red;
+    
+}
+.bugattititle{
+    text-align: center;
+}
+.barremodeles{
+    border: solid yellow;
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+}
+.firstsectionmodeles{
+    display: flex;
+
+    border: solid black;
+    
+}
+.secondsectionmodeles{
+    display: flex;
+
+}
+.modeles{
+    padding: 0px 30px;
+    font-size: 20px;
+}
+
+.eb{
+    padding-left: 45px;
+}
+.ciento{
+    padding-left: 45px;
+}
+
+
+
+
+
+
+
+/* ------------------  Body fin ------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------   footer début --------------------- */
+
+
+.contactitle{
+    color: white;
+    background-color: #24252a;
+    font-family: 'Victor mono', monospace;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: underline;
+}
+.contact{
+    color: white;
+    background-color: #24252a;
+    font-family: 'Victor mono', monospace;
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactemail{
+   width: 49%;
+   text-align: left;
+}
+.contactreseaux{
+    width: 49%;
+    text-align: left;
+    
+}
+.linkemail{
+    font-weight: 300;
+}
+.linkreseaux{
+    max-width: 5%;
+    max-height: 5%;
+    padding: 5px;
+}
+
+footer{
+    background-color: #24252a;
+}
+
+.ligne{
+    color: #41444d;
+    background-color: #24252a;
+    font-size: 21px;
+    font-weight: 900;
+    padding-right: 200px;
+    padding-left: 20px;
+    width: 1420px;
+    text-align: left;
+
+}
+
+
+.footend{
+    font-family: 'Victor mono', monospace;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    padding: 20px;
+}
+.copyright{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.termsbox{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+
+}
+.terms{
+    text-decoration: underline;
+    font-family: 'Victor mono', monospace;
+    font-size: 15px;
+    
+}
+
+.barre{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Victor mono', monospace;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+ 
+/* ------------------   footer fin ------------------------ */
+
+
+
+
+
+
+
+
+/* ---------------   bouttons début ---------------- */
+
+li, a, button{
+    font-family: 'Victor Mono',sans-serif, monospace;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.voirplus{
+    margin-top: 50px;
+    padding: 9px 25px;
+    background-color: rgba (0,136,168,1);
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 300px;
+}
+
+.selection{
+    padding-left: 20px;
+    display: inline;
+
+}
+
+
+.rond{
+    margin: 170px 0px 0px 0px;
+    border-radius: 60% 60%;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 5px 5px 5px;
+    margin-right: 20px;
+}
+
+.voirphotos{
+    padding: 9px 25px;
+    background-color: rgba (0,136,168,1);
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 300px;
+}
+
+.instagrambutton{
+    max-width: 60px;
+    max-height: 60px;
+
+}
+
+/* ---------------   bouttons  fin---------------- */

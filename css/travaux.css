@@ -1,0 +1,144 @@
+/* -------------------------body début --------------------------*/
+
+body{
+    font-size: larger;
+    font-weight: 700;
+    background-color: #35373e;
+    display: inline;
+    justify-content: space-around;
+}
+
+
+.textepresentation{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+}
+.presentation{
+    width: 49%;
+    text-align: center;
+}
+.infoshoot{
+    width: 49%;
+    text-align: center;
+}
+
+
+.title1{
+    background: none;
+    background-color: #35373e;
+    color: white;
+    font-family: 'Victor Mono', monospace;
+    font-size: 120%;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+.answer1{
+    font-size: 80%;
+    font-weight: 500; 
+    font-family: 'Victor Mono', monospace;
+    color: white;
+
+}
+
+
+
+
+.boxlast{
+    margin: 0px 0px;
+
+}
+
+.lasttext{
+    color: white;
+
+    margin: 10px 5px;
+    margin-top: 30px;
+    padding-top: 90px; 
+    padding-left: 30px;
+
+    font-family: 'Vicor Mono', monospace;
+    font-weight: 300;
+    font-size: 25px;
+
+    width: 50%;
+    height: 500Px;
+}
+
+.bg-img{
+    margin: 0;
+    width: 100%;
+    height: 550px;
+
+    background-image: url("../img/Bentley_logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.box-first{
+    display: flex;
+    width: 100%;
+}
+.box-second{
+    display: flex;
+    width: 100%;
+}
+
+.rassotext{
+    color: white;
+
+    margin: 10px 5px;
+    margin-top: 30px;
+    padding-top: 30px; 
+    padding-left: 30px;
+
+    font-family: 'Vicor Mono', monospace;
+    font-weight: 300;
+    font-size: 20px;
+
+    width: 75%;
+    height: 280Px;
+}
+
+
+.bg-rasso{
+    background-image: url("../img/porschegt2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 50%;
+    height: 430px;
+    
+}
+.bg-spotting{
+    background-image: url("../img/pagani-bache.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 50%;
+    height: 430px;
+}
+
+.bg-shooting{
+    background-image: url("../img/arkana-levier.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 430px;
+}
+.bg-gallerie{
+    background-image: url("../img/banner_bentley-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 50%;
+    height: 430px;
+}
+
+
+/* ----------------------------- body end -------------------*/

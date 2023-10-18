@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@1,300&display=swap');
+
+
+/*taille de screen
+X-Small		          <576px
+Small		            ≥576px
+Medium		          ≥768px
+Large		            ≥992px
+Extra large	        ≥1200px
+Extra extra large		≥1400px
+
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media screen and (min-width: 300px) {
+    .textepresentation{
+        justify-content: space-around;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .presentation{
+        width: 100%;
+        text-align: center;
+       margin-bottom: 30px;
+       }
+    .infoshoot{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+     }
+    .lasttext{
+        margin-top: 200px;
+        height: 220px;
+        text-align: center;
+    }
+    .bg-img{
+        background-size: 100% 120%;
+        height: 250px;
+    }
+    .selection2{
+        visibility: hidden;
+        margin-left: 30px;
+    }
+    .selection{
+        visibility: visible;
+        z-index: 4;
+        
+    }
+    .box-first{
+        display: block;
+        margin-top: 400px;
+        height: 800px;
+    }
+    .box-second{
+        height: 800px;
+    }
+    .bg-spotting{
+        margin: 0;
+    }
+    .footerbegin{
+        height: 295px;
+    }
+    .contactemail{
+        margin-bottom: 20px;
+    }
+    .linkreseaux{
+        width: 40px;
+        height: 40px;
+    }
+    .terms{
+    font-size: 6px;
+    }
+    .footerbegin{
+        height: 280px;
+    }
+}
+@media screen and (min-width:576px) {
+        
+    .textepresentation{
+        justify-content: space-around;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .presentation{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .infoshoot{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .lasttext{
+        color: white;
+        margin-top: 200px;
+        padding-top: 20px; 
+
+        font-size: 20px;
+        text-align: center;
+
+        width: 100%;
+        height: 220px;
+        background-color: #35373e;
+    }
+
+    .bg-img{
+        margin: 0;
+        width: 100%;
+        background-size: cover;
+
+        }
+    .boxlast{
+        margin: 0;
+        width: 100%;
+        position: absolute;
+    }
+    .linkreseaux{
+        width: 50px;
+        height: 50px;
+    }
+    .contactreseaux{
+        margin-top: 0px;
+    }
+
+}
+@media screen and (min-width: 768px) {
+    
+    .textepresentation{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .presentation{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .infoshoot{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .lasttext{
+        color: white;
+        margin-top: 0px;
+        padding-left: 20px;
+        padding-top: 20px; 
+        font-size: 20px;
+        text-align: left;
+
+        max-width: 40%;
+        height: 100%;
+        background-color: transparent;
+    }
+    .boxlast{
+        border: none;
+    }
+    .selection2{
+        visibility: visible;
+        margin-bottom: 0;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .selection{
+        visibility: hidden;
+    }
+    .box-first{
+    display: flex;
+    margin-top: 250px;
+    height: 400px;
+    }
+    .box-second{
+    display: flex;
+    height: 400px;
+    
+    }
+    .bg-spotting{
+    width: 50%;
+    }
+    .bg-rasso{
+    width: 50%;
+
+    }
+    .bg-shooting{
+        width: 50%;
+    }
+    .bg-gallerie{
+        width: 50%;
+    }
+
+    .footerbegin{
+        height: 250px;
+    }
+    .contact{
+    display: flex;
+    }
+    .contactemail{
+        font-size: 15px;
+    }
+    .contactreseaux{
+    width: 49%;
+    }
+    .linkreseaux{
+        width: 60px;
+        height: 60px;
+    }
+    .terms{
+    font-size: 15px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+    
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    
+}
+
+
+
+@media screen and (min-width: 1400px) {
+    
+}
+
+
+
+
+
+/* -------------------- header  ------------------- */
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 10px 1%;
+    background-color: #24252a;
+     
+}
+
+
+.nav {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute ;
+    z-index: 3;
+}
+
+.navlogo img{
+    width: 200px;
+    cursor: pointer;
+    height: 120px;
+    
+}
+
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+
+}
+
+/* -------------------- header  ------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------body début --------------------------*/
+
+body{
+    font-size: larger;
+    font-weight: 700;
+    background-color: #35373e;
+    display: inline;
+    justify-content: space-around;
+}
+
+
+.textepresentation{
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+}
+.presentation{
+    width: 100%;
+    text-align: center;
+}
+.infoshoot{
+    width: 100%;
+    text-align: center;
+}
+
+
+.title1{
+    background: none;
+    background-color: #35373e;
+    color: white;
+    font-family: 'Victor Mono', monospace;
+    font-size: 120%;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+.answer1{
+    font-size: 80%;
+    font-weight: 500; 
+    font-family: 'Victor Mono', monospace;
+    color: white;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+.boxlast{
+    margin: 0px 0px;
+}
+
+.lasttext{
+    color: white;
+
+    padding-top: 20px; 
+
+    font-family: 'Vicor Mono', monospace;
+    font-weight: 300;
+    font-size: 20px;
+
+    width: 100%;
+}
+
+.bg-img{
+    margin: 0;
+    width: 100%;
+    
+
+    background-image: url("../img/Bentley_logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.box-first{
+    width: 100%;
+}
+.box-second{
+    width: 100%;
+}
+
+.rassotext{
+    color: white;
+
+
+    padding-top: 30px; 
+    padding-left: 30px;
+
+    font-family: 'Vicor Mono', monospace;
+    font-weight: 300;
+    font-size: 20px;
+
+    width: 75%;
+    height: 280Px;
+}
+
+
+.bg-rasso{
+    background-image: url("../img/porschegt2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 400px;
+    
+}
+.bg-spotting{
+    background-image: url("../img/pagani-bache.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.bg-shooting{
+    background-image: url("../img/arkana-levier.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.bg-gallerie{
+    background-image: url("../img/banner_bentley-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 400px;
+}
+
+
+/* ----------------------------- body end -------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------   footer début --------------------- */
+
+
+
+.contactitle{
+    color: white;
+    background-color: #24252a;
+    font-family: 'Victor mono', monospace;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: underline;
+}
+.contact{
+    color: white;
+    background-color: #24252a;
+    font-family: 'Victor mono', monospace;
+    font-size: 15px;
+    padding: 20px 20px 0px 20px;
+    justify-content: space-around;
+}
+
+.contactemail{
+   width: 49%;
+   text-align: left;
+}
+.contactreseaux{
+    text-align: left;
+    
+}
+.linkemail{
+    font-weight: 300;
+}
+.linkreseaux{
+    padding: 5px;
+}
+
+footer{
+    background-color: #24252a;
+}
+
+.ligne{
+    color: #41444d;
+    background-color: #24252a;
+    font-size: 21px;
+    font-weight: 900;
+    padding-right: 200px;
+    padding-left: 20px;
+    width: 1420px;
+    text-align: left;
+
+}
+
+
+.footend{
+    font-family: 'Victor mono', monospace;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 700px;
+}
+.copyright{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.termsbox{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+
+}
+.terms{
+    text-decoration: underline;
+    font-family: 'Victor mono', monospace;
+    
+}
+
+.barre{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Victor mono', monospace;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+.intersection{
+    color: #35373e;
+    background-color: #35373e;
+    height: 5px;
+    font-size: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* ------------------   footer fin ------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------   bouttons début ---------------- */
+
+li, a, button{
+    font-family: 'Victor Mono',sans-serif, monospace;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.voirplus{
+    margin-top: 50px;
+    padding: 9px 25px;
+    background-color: rgba (0,136,168,1);
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 300px;
+}
+
+.selection{
+    display: inline;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 170px;
+}
+.selection2{
+    display: inline;
+    position: absolute;
+}
+
+
+.rond{
+    border-radius: 60% 60%;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 5px 5px 5px;
+    margin-right: 20px;
+}
+.rond2{
+    border-radius: 60% 60%;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 5px 5px 5px;
+    margin-right: 20px;
+}
+
+.voirphotos{
+    padding: 9px 25px;
+    margin-left: 2px;
+    background-color: rgba (0,136,168,1);
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 300px;
+}
+
+.instagrambutton{
+    max-width: 60px;
+    max-height: 60px;
+
+}
+
+/* ---------------   bouttons  fin---------------- */
+
+
+
+
+
+
+
+
+
+
+

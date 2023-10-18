@@ -1,0 +1,459 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+/* -------------------- header  ------------------- */
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 10px 1%;
+    background-color: #24252a;
+     
+}
+
+
+.nav {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute ;
+    z-index: 3;
+}
+
+.navlogo img{
+    width: 200px;
+    cursor: pointer;
+    height: 120px;
+    
+}
+
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+
+}
+
+/* -------------------- header  ------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------- Body début ----------------------- */
+
+.spottinghead{
+    background-color: #35373e;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Victor mono', monospace, sans-serif;
+    text-align: center;
+}
+
+.spottingtext{
+    font-weight: 500;
+}
+
+
+
+.lambofefe{
+    display: flex;
+    width: 100%;
+}
+.bugani{
+    display: flex;
+    width: 100%;
+}
+.porschati{
+    display: flex;
+    width: 100%;
+}
+.rolltley{
+    display: flex;
+    width: 100%;
+}
+
+
+.cartitleleft{
+    color: white;
+
+    margin: 10px 5px;
+    margin-top: 10px;
+    padding-top: 0px; 
+    padding-left: 30px;
+
+    font-family: 'Vicor Mono', monospace;
+    font-weight: 500;
+    font-size: 25px;
+
+
+    width: 75%;
+    height: 260Px;
+}
+.cartitleright{
+    color: white;
+
+    margin: 10px 5px;
+    margin-top: 330px;
+    padding-top: 20px; 
+    padding-left: 30px;
+
+    font-family: 'Vicor Mono', monospace;
+    font-weight: 500;
+    font-size: 25px;
+
+
+    width: 75%;
+    height: 140Px;
+}
+
+
+.lambo{
+    background-image: url("../img/lambo-logo-backv2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 50%;
+    height: 430px;
+}
+.fefe{
+    background-image: url("../img/ferrari-roma-front.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 50%;
+    height: 430px;
+}
+.bugatti{
+    background-image: url("../img/bugatti.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 50%;
+    height: 430px;
+}
+.pagani{
+    background-image: url("../img/pagani.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 50%;
+    height: 430px;
+}
+.porsche{
+    background-image: url("../img/porsche-banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 50%;
+    height: 430px;
+}
+.maserati{
+    background-image: url("../img/maserati-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 50%;
+    height: 430px;
+}
+.rolls{
+    background-image: url("../img/rolls-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 50%;
+    height: 430px;
+}
+.bentley{
+    background-image: url("../img/Bentley_logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 50%;
+    height: 430px;
+}
+/* ------------------- body fin ----------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------   footer début --------------------- */
+
+
+.contactitle{
+    color: white;
+    background-color: #24252a;
+    font-family: 'Victor mono', monospace;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: underline;
+}
+.contact{
+    color: white;
+    background-color: #24252a;
+    font-family: 'Victor mono', monospace;
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactemail{
+   width: 49%;
+   text-align: left;
+}
+.contactreseaux{
+    width: 49%;
+    text-align: left;
+    
+}
+.linkemail{
+    font-weight: 300;
+}
+.linkreseaux{
+    max-width: 5%;
+    max-height: 5%;
+    padding: 5px;
+}
+
+footer{
+    background-color: #24252a;
+}
+
+.ligne{
+    color: #41444d;
+    background-color: #24252a;
+    font-size: 21px;
+    font-weight: 900;
+    padding-right: 200px;
+    padding-left: 20px;
+    width: 1420px;
+    text-align: left;
+
+}
+
+
+.footend{
+    font-family: 'Victor mono', monospace;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    padding: 20px;
+}
+.copyright{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.termsbox{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+
+}
+.terms{
+    text-decoration: underline;
+    font-family: 'Victor mono', monospace;
+    font-size: 15px;
+    
+}
+
+.barre{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Victor mono', monospace;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+ 
+/* ------------------   footer fin ------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------   bouttons début ---------------- */
+
+li, a, button{
+    font-family: 'Victor Mono',sans-serif, monospace;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.voirplus{
+    margin-top: 50px;
+    padding: 9px 25px;
+    background-color: rgba (0,136,168,1);
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 300px;
+}
+
+.selection{
+    padding-left: 20px;
+    display: inline;
+
+}
+
+
+.rond{
+    margin: 170px 0px 0px 0px;
+    border-radius: 60% 60%;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 5px 5px 5px;
+    margin-right: 20px;
+}
+
+.voirphotos{
+    padding: 9px 25px;
+    background-color: rgba (0,136,168,1);
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 300px;
+}
+
+.instagrambutton{
+    max-width: 60px;
+    max-height: 60px;
+
+}
+
+/* ---------------   bouttons  fin---------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Page html Rassemblement */
+
+.maps{
+    width: 1100px;
+    height: 650px;
+    margin-left: 170px;
+    border-radius: 20px;
+    justify-content: space-around;
+
+
+}
