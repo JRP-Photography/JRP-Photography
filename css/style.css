@@ -21,8 +21,11 @@ Extra extra large		≥1400px
 
 
 @media screen and (min-width: 300px) {
+
+    
     .nav__links{
-        display: none;
+    visibility: hidden;
+
     }
 
     .textepresentation{
@@ -84,13 +87,13 @@ Extra extra large		≥1400px
         height: 40px;
     }
     .terms{
-    font-size: 7px;
+    font-size: 6px;
     }
     .footerbegin{
+        width: 100%;
+        max-width: 576px;
+        min-width: 300px;
         height: 280px;
-    }
-    .copyright{
-        font-size: 10px;
     }
 }
 
@@ -101,6 +104,9 @@ Extra extra large		≥1400px
 
 
 @media screen and (min-width:576px) {
+    .nav__links{
+        visibility: visible;
+    }
         
     .textepresentation{
         justify-content: space-around;
