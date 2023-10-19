@@ -89,6 +89,9 @@ Extra extra large		≥1400px
     .footerbegin{
         height: 280px;
     }
+    .copyright{
+        font-size: 10px;
+    }
 }
 
 
