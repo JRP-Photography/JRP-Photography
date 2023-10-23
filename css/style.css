@@ -234,9 +234,6 @@ Extra extra large		≥1400px
     .contactemail{
         font-size: 15px;
     }
-    .contactreseaux{
-    width: 49%;
-    }
     .linkreseaux{
         width: 60px;
         height: 60px;
@@ -517,7 +514,6 @@ body{
 }
 .contactreseaux{
     text-align: left;
-    
 }
 .linkemail{
     font-weight: 300;
