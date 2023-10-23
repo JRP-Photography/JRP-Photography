@@ -98,6 +98,14 @@ Extra extra large		≥1400px
     .footend{
         max-width: 500px;
     }
+    .copyright{
+    max-width: 500px;
+
+    }
+    .termsbox{
+    width: 500px;
+
+    }
 }
 
 
@@ -162,9 +170,22 @@ Extra extra large		≥1400px
         margin-left: 30%;
     }
     .footend{
+        width: auto;
         max-width: 700px;
     }
+    .copyright{
+    max-width: 700px;
+    }
+    .termsbox{
+    width: 700px;
+
+    }
 }
+
+
+
+
+
 @media screen and (min-width: 768px) {
     
     .textepresentation{
@@ -558,6 +579,7 @@ footer{
 .copyright{
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 500px;
 }
 .termsbox{
     padding-top: 10px;
