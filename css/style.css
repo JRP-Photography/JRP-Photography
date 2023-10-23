@@ -95,6 +95,9 @@ Extra extra large		≥1400px
         min-width: 300px;
         height: 280px;
     }
+    .footend{
+        max-width: 500px;
+    }
 }
 
 
@@ -157,6 +160,9 @@ Extra extra large		≥1400px
     }
     .selection{
         margin-left: 30%;
+    }
+    .footend{
+        max-width: 700px;
     }
 }
 @media screen and (min-width: 768px) {
