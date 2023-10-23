@@ -24,7 +24,7 @@ Extra extra large		≥1400px
 
     
     .nav__links{
-    visibility: hidden;
+    display: none;
 
     }
 
